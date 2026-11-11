@@ -90,4 +90,5 @@ ax2.axhline(y=80, color="gray", linestyle="--")
 
 ax.set_title(f"{n_80} of {len(by_sku)} SKUs drive 80% of correction cost")
 fig.tight_layout()
-fig.savefig(PROJECT_DIR / "pareto.png", dpi=150)
+(PROJECT_DIR / "docs").mkdir(exist_ok=True)
+fig.savefig(PROJECT_DIR / "docs" / "pareto.png", dpi=150)
