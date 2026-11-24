@@ -46,5 +46,5 @@ src/         scripts: make_data.py, pareto.py
 ## Roadmap
 
 - [x] Exercise 1: Pareto analysis in pandas
-- [ ] Exercise 2: the same analysis in SQL (DuckDB)
+- [x] Exercise 2: the same analysis in SQL (DuckDB)
 - [ ] Exercise 3: shipping and inventory optimization (PuLP)
